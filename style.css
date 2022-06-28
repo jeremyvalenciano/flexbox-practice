@@ -35,6 +35,15 @@ ul li a {
   font-size: 1.2rem;
 }
 
+ul li a:hover {
+  color: lightblue;
+  transition: all 0.15s;
+}
+
+ul li a:active {
+  color: rgb(53, 162, 199);
+}
+
 .navbar .container {
   display: flex;
   justify-content: space-between;
